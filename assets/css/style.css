@@ -1,0 +1,42 @@
+:root{
+  --bg:#0f1115; --muted:#97a0af; --fg:#e6e9ef; --ink:#fff;
+  --link:#86bafc; --card:#171923; --border:#23283b; --accent:#cfcfe6;
+  --radius:14px; --pad:20px; --max:840px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0; font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  background:var(--bg); color:var(--fg); line-height:1.6;
+}
+a{color:var(--link); text-decoration:none}
+a:hover{text-decoration:underline}
+.muted{color:var(--muted)}
+.small{font-size:0.9rem}
+.date{margin-left:8px}
+.site{display:flex; flex-direction:column}
+.site-header, .site-footer{max-width:var(--max); margin:0 auto; width:100%; padding:10px var(--pad)}
+.site-main{max-width:var(--max); margin:0 auto; width:100%; padding:20px var(--pad) 60px}
+
+.nav{display:flex; align-items:center; gap:12px}
+.nav .logo{font-weight:600; color:var(--accent); padding:6px 10px; border:1px solid var(--border); border-radius:999px}
+.nav ul{display:flex; gap:14px; list-style:none; padding:0; margin:0}
+.nav a.active{color:var(--ink); font-weight:600}
+.nav .spacer{flex:1}
+.nav .socials a{margin-left:10px; color:var(--muted)}
+
+.hero{padding:10px 0 20px}
+.hero h1{margin:0 0 6px 0; font-size:1.6rem}
+
+.post-list{list-style:none; padding:0; margin:0}
+.post-list li{
+  background:var(--card); border:1px solid var(--border); border-radius:var(--radius);
+  padding:14px 16px; margin-bottom:10px;
+}
+
+.post h1{margin:0 0 8px}
+.post-body img{max-width:100%; border-radius:10px}
+.tag{margin-left:4px}
+
+.site-footer{color:var(--muted); border-top:1px solid var(--border)}
