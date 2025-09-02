@@ -23,18 +23,21 @@ a:hover{text-decoration:underline}
 .site-header, .site-footer{max-width:var(--max); margin:0 auto; width:100%; padding:10px var(--pad)}
 .site-main{max-width:var(--max); margin:0 auto; width:100%; padding:20px var(--pad) 60px}
 
-.socials img {
-  width: 18px;
-  height: 18px;
+.socials svg {
   opacity: 0.7;
   transition: opacity 0.2s;
 }
-.socials img:hover {
+.socials svg:hover {
   opacity: 1;
 }
 .socials a {
   margin-left: 12px;
+  color: var(--muted);
 }
+.socials a:hover {
+  color: var(--fg);
+}
+
 .nav{display:flex; align-items:center; gap:12px}
 .nav .logo{font-weight:600; color:var(--accent); padding:6px 10px; border:1px solid var(--border); border-radius:999px}
 .nav ul{display:flex; gap:14px; list-style:none; padding:0; margin:0}
