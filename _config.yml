@@ -1,7 +1,7 @@
 title: silicon dreams
-description: writings, thoughts & things i care about
+description: writings, thoughts & stuff i care about
 baseurl: ""        # keep empty for user.github.io root
-url: "https://lak3shore.github.io"
+url: "https://LAK3SHORE.github.io"
 theme: null        # we’ll use our own layout
 markdown: kramdown
 permalink: /:categories/:title/
@@ -17,5 +17,5 @@ nav:
 # Socials (optional)
 social:
   github:  LAK3SHORE
-  twitter: "@crisdotipynb"
+  twitter: crisdotipynb
   email: essal.cristobal@gmail.com
