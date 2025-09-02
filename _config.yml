@@ -1,6 +1,6 @@
 title: silicon dreams
-description: my writings, thoughts & things i care about
-baseurl: ""        # keep empty for user.github.io root
+description: writings, thoughts & things i care about
+baseurl: "lak3shore.github.io"
 url: "https://lak3shore.github.io"
 theme: null        # we’ll use our own layout
 markdown: kramdown
