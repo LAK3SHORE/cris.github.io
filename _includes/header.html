@@ -1,0 +1,15 @@
+<nav class="nav">
+  <a class="logo" href="{{ "/" | relative_url }}">⌁</a>
+  <ul>
+    {% for item in site.nav %}
+      <li><a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.label }}</a></li>
+    {% endfor %}
+  </ul>
+  <div class="spacer"></div>
+  <div class="socials">
+    {% if site.social.github %}<a href="https://github.com/{{ site.social.github }}" target="_blank" rel="me noopener">gh</a>{% endif %}
+    {% if site.social.instagram %}<a href="https://instagram.com/{{ site.social.instagram }}" target="_blank" rel="me noopener">ig</a>{% endif %}
+    {% if site.social.twitter %}<a href="https://twitter.com/{{ site.social.twitter }}" target="_blank" rel="me noopener">tw</a>{% endif %}
+    {% if site.social.email %}<a href="mailto:{{ site.social.email }}">@</a>{% endif %}
+  </div>
+</nav>
