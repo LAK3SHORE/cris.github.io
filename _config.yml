@@ -1,6 +1,6 @@
 title: silicon dreams
 description: writings, thoughts & things i care about
-baseurl: "lak3shore.github.io"
+baseurl: ""
 url: "https://lak3shore.github.io"
 theme: null        # we’ll use our own layout
 markdown: kramdown
