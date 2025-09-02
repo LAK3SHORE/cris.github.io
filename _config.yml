@@ -1,0 +1,22 @@
+title: aetherial echoes
+description: my writings, thoughts & things i care about
+baseurl: ""        # keep empty for user.github.io root
+url: "https://your-username.github.io"
+theme: null        # we’ll use our own layout
+markdown: kramdown
+permalink: /:categories/:title/
+timezone: Etc/UTC
+
+# Navigation (edit labels/links as you like)
+nav:
+  - { label: "home",     url: "/" }
+  - { label: "about",    url: "/about/" }
+  - { label: "projects", url: "/projects/" }
+  - { label: "reading",  url: "/reading/" }
+
+# Socials (optional)
+social:
+  github:  your-username
+  twitter: ""
+  instagram: ""
+  email: you@example.com
