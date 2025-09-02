@@ -10,6 +10,10 @@ body{
   margin:0; font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
   background:var(--bg); color:var(--fg); line-height:1.6;
 }
+.byline {
+  margin: -8px 0 12px 0;
+  font-style: italic;
+}
 a{color:var(--link); text-decoration:none}
 a:hover{text-decoration:underline}
 .muted{color:var(--muted)}
