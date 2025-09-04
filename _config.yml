@@ -1,8 +1,8 @@
-title: silicon dreams
+title: unserious thoughts on machines, consoles & numbers
 description: writings, thoughts & stuff i care about
-baseurl: ""        # keep empty for user.github.io root
+baseurl: ""        
 url: "https://LAK3SHORE.github.io"
-theme: null        # we’ll use our own layout
+theme: null        
 markdown: kramdown
 permalink: /:categories/:title/
 timezone: Etc/UTC
