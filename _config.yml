@@ -12,10 +12,10 @@ nav:
   - { label: "home",     url: "/" }
   - { label: "about",    url: "/about/" }
   - { label: "projects", url: "/projects/" }
-  - { label: "reading",  url: "/reading/" }
+  - { label: "reading list",  url: "/reading/" }
 
 # Socials (optional)
 social:
   github:  LAK3SHORE
-  twitter: crisdotipynb
+  twitter: _csalinas_
   email: essal.cristobal@gmail.com
